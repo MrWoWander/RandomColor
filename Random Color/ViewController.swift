@@ -46,6 +46,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        ColorFild.backgroundColor = generateRandomColor()
         ButtonColor1.isEnabled = false
         ButtonColor2.isEnabled = false
         ButtonColor3.isEnabled = false
